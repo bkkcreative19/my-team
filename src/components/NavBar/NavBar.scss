@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 3.5rem 0;
+
+  &__container {
+    display: flex;
+    width: 75%;
+    align-items: center;
+
+    *:not(:first-child) {
+      @media screen and (max-width: 750px) {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 1000px) and (min-width: 750px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 750px) {
+      width: 90%;
+    }
+
+    &-logo {
+    }
+    &-list {
+      list-style: none;
+      display: flex;
+      margin-left: 4rem;
+      margin-right: auto;
+    }
+    &-list li {
+      margin: 0 1.4rem;
+    }
+    &-list li a {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
