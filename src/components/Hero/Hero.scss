@@ -1,0 +1,50 @@
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+
+  &__pattern-1 {
+    position: absolute;
+    left: -11rem;
+  }
+
+  &__content {
+    display: flex;
+    width: 75%;
+    color: #fff;
+    height: 50%;
+
+    &-head {
+      flex: 60%;
+    }
+    &-text {
+      flex: 40%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+  }
+
+  &__content h1 {
+    font-size: 10rem;
+    font-weight: 600;
+    width: 80%;
+  }
+  &__content h1 span {
+    color: #f67e7e;
+  }
+
+  &__content p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin-top: 9rem;
+  }
+  &__content p::before {
+    content: "";
+    position: absolute;
+    width: 5rem;
+    top: 0;
+    border-bottom: 5px solid #79c8c7;
+  }
+}
