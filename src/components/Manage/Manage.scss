@@ -1,0 +1,63 @@
+.manage {
+  background-color: #012f34;
+  display: flex;
+  justify-content: center;
+  padding: 15rem 0;
+  position: relative;
+  overflow: hidden;
+
+  &__container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__head {
+    flex: 2;
+  }
+  &__head h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    width: 80%;
+    color: #fff;
+    margin-top: 2.5rem;
+  }
+  &__head h1::before {
+    content: "";
+    position: absolute;
+    width: 5rem;
+    top: 13rem;
+    border-bottom: 5px solid #f67e7e;
+  }
+
+  &__list {
+    flex: 2;
+    &-item {
+      display: flex;
+      margin: 3rem 0;
+
+      &-text {
+        margin-left: 2.2rem;
+      }
+
+      &-text h3 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #f67e7e;
+      }
+
+      &-text p {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.795);
+      }
+    }
+  }
+
+  &__pattern {
+    position: absolute;
+    bottom: 0;
+    right: -11rem;
+  }
+}
