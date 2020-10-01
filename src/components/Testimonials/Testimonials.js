@@ -19,7 +19,8 @@ const Testimonials = () => {
         </g>
       </svg>
       <h1 className='testimonials__head'>
-        Delivering real results for top companies.
+        Delivering real results for top companies. Some of our
+        <span> success stories.</span>
       </h1>
       <div className='testimonials__container'>
         <div className='testimonials__container-item'>

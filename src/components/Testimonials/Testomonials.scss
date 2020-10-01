@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
+  // position: relative;
   background-color: #004047;
 
   &__head {
@@ -13,6 +13,21 @@
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
+
+    @media screen and (max-width: 1000px) {
+      font-size: 3.2rem;
+      width: 65%;
+      margin: 11rem 0 0 0;
+    }
+  }
+
+  &__head span {
+    display: none;
+
+    @media screen and (max-width: 1000px) {
+      display: inline;
+      color: #79c8c7;
+    }
   }
 
   &__container {
@@ -21,6 +36,10 @@
     width: 75%;
     grid-template-columns: repeat(3, 1fr);
     margin: 9rem 0 12rem 0;
+
+    @media screen and (max-width: 1000px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
 
     &-item {
       text-align: center;
@@ -36,9 +55,10 @@
     }
 
     &-item svg {
-      position: absolute;
-      left: 14.3rem;
-      top: -3.5rem;
+      // position: absolute;
+      // left: 14.3rem;
+      // top: -3.5rem;
+      margin-bottom: -2.5rem;
     }
     &-item h3 {
       font-size: 1.8rem;
@@ -52,13 +72,13 @@
   }
 }
 
-.quotes {
-  position: absolute;
-  left: 30rem;
-  top: 18rem;
-  opacity: 0.2;
-  // z-index: -1;
-}
+// .quotes {
+//   // position: absolute;
+//   // left: 30rem;
+//   // top: 18rem;
+//   // opacity: 0.2;
+//   // z-index: -1;
+// }
 
 .test-bg-1 {
   position: absolute;
