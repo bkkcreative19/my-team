@@ -3,8 +3,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8rem 0;
+  padding: 10rem 0;
   position: relative;
+
+  @media screen and (max-width: 750px) {
+    flex-direction: column;
+  }
 
   &__pattern {
     position: absolute;
@@ -16,10 +20,34 @@
     display: flex;
     width: 55%;
     justify-content: space-between;
+
+    @media screen and (max-width: 1000px) {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 750px) {
+      width: 75%;
+    }
   }
 }
 .get-started h1 {
   font-size: 4.8rem;
   font-weight: 700;
   margin-top: 1.4rem;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 3.2rem;
+    margin-top: -1rem;
+  }
+}
+.get-started .btn {
+  @media screen and (max-width: 1000px) {
+    // font-size: 3.2rem;
+    margin-top: -3rem;
+  }
+
+  @media screen and (max-width: 750px) {
+    margin-top: 3rem;
+    margin-left: 0;
+  }
 }
