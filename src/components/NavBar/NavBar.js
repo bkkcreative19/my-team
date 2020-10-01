@@ -20,7 +20,7 @@ const NavBar = () => {
           </li>
         </ul>
         <div className='nav__container-btn'>
-          <Button text='contact us' />
+          <Button color='#fff' bgColor='#014e56' text='contact us' />
         </div>
       </div>
     </nav>

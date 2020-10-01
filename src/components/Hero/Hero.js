@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div className='hero'>
       <svg
-        class='hero__pattern-1'
+        className='hero__pattern-1'
         xmlns='http://www.w3.org/2000/svg'
         width='200'
         height='200'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <path fill='#79C8C7' d='M100 200h100V100H100z' />
           <path
             fill='#012F34'
@@ -40,12 +40,12 @@ const Hero = () => {
       </div>
 
       <svg
-        class='hero__pattern-2'
+        className='hero__pattern-2'
         xmlns='http://www.w3.org/2000/svg'
         width='358'
         height='100'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <circle cx='100' cy='100' r='100' fill='#2C6269' />
           <path
             fill='#012F34'

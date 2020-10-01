@@ -2,7 +2,7 @@
   background-color: #012f34;
   display: flex;
   justify-content: center;
-  padding: 15rem 0;
+  padding: 15rem 0 10rem 0;
   position: relative;
   overflow: hidden;
 
@@ -31,6 +31,13 @@
   }
 
   &__list {
+    &-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
     flex: 2;
     &-item {
       display: flex;

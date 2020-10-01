@@ -1,0 +1,25 @@
+.get-started {
+  background-color: #f67e7e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8rem 0;
+  position: relative;
+
+  &__pattern {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  &__container {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+  }
+}
+.get-started h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-top: 1.4rem;
+}
