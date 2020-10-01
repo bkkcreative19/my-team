@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import GetStarted from "../../components/GetStarted/GetStarted";
 import Hero from "../../components/Hero/Hero";
 import Manage from "../../components/Manage/Manage";
@@ -14,6 +15,7 @@ const Home = () => {
       <Manage />
       <Testimonials />
       <GetStarted />
+      <Footer />
     </div>
   );
 };
