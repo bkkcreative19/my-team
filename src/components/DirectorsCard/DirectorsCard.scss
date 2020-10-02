@@ -1,0 +1,28 @@
+.directors__container-card {
+  position: relative;
+  background-color: #012f34;
+  //   border: 1px solid red;
+  margin-top: 2rem;
+}
+.directors__container-card img {
+  margin-top: 3rem;
+}
+.directors__container-card h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #79c8c7;
+  margin-top: 0.7rem;
+}
+.directors__container-card p {
+  font-size: 1.5rem;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #f67e7e;
+  width: 4.5rem;
+  height: 4.5rem;
+  position: relative;
+  margin: 0 auto;
+  bottom: -1.4rem;
+}

@@ -1,0 +1,39 @@
+.clients {
+  background-color: #012f34;
+  position: relative;
+  padding: 11rem 0;
+
+  &__container {
+    text-align: center;
+
+    &-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5rem;
+      margin-top: 2.5rem;
+    }
+    &-items .box:not(:last-child) {
+      width: 184px;
+      height: 23px;
+      background-color: #fff;
+    }
+    &-items .box:last-child {
+      width: 98px;
+      height: 45px;
+      background-color: #fff;
+    }
+  }
+  &__container h1 {
+    font-size: 4.8rem;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  &__pattern {
+    position: absolute;
+    left: 0;
+    top: 0;
+    // margin-left: 8rem;
+  }
+}
