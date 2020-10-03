@@ -1,0 +1,44 @@
+.contact-content {
+  display: flex;
+  justify-content: center;
+  &__container {
+    display: flex;
+    width: 75%;
+
+    &-content {
+      flex: 2;
+    }
+    &-form {
+      flex: 2;
+    }
+    &-list {
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      margin: 1.5rem 0;
+
+      &-text {
+        margin-left: -2rem;
+      }
+      &-text h3 {
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 1.8rem;
+      }
+    }
+  }
+  &__container h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 4rem;
+  }
+}
+
+.ask {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #f67e7e;
+  margin: 3rem 0;
+}

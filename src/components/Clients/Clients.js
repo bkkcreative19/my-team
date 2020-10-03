@@ -27,7 +27,7 @@ const Clients = () => {
         <h1>Some of our clients</h1>
 
         <div className='clients__container-items'>
-          <div className='box'>hi</div>
+          <div className='box'></div>
           <div className='box'></div>
           <div className='box'></div>
           <div className='box'></div>
