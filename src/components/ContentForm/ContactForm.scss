@@ -1,5 +1,11 @@
 .contact-form {
   margin-top: 4rem;
+
+  @media screen and (max-width: 1030px) {
+    margin-top: 2rem;
+    margin-bottom: 11rem;
+  }
+
   &__container {
     display: flex;
     flex-direction: column;
@@ -32,4 +38,8 @@ input::placeholder {
 
 .contact-form .btn {
   width: 20%;
+
+  @media screen and (max-width: 1030px) {
+    width: 30%;
+  }
 }

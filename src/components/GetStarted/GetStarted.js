@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import { Link } from "react-router-dom";
 import "./GetStarted.scss";
 
 const GetStarted = () => {
@@ -33,12 +34,14 @@ const GetStarted = () => {
         </div>
       </div>
 
-      <Button
-        outline='#012F34'
-        color='#012F34'
-        bgColor='#F67E7E'
-        text='contact us'
-      />
+      <Link to='/contact'>
+        <Button
+          outline='#012F34'
+          color='#012F34'
+          bgColor='#F67E7E'
+          text='contact us'
+        />
+      </Link>
     </section>
   );
 };
