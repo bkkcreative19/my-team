@@ -8,6 +8,10 @@
     width: 75%;
     align-items: center;
 
+    &-logo a {
+      cursor: pointer;
+    }
+
     *:not(:first-child) {
       @media screen and (max-width: 750px) {
         display: none;

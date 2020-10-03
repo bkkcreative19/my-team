@@ -9,7 +9,9 @@ const NavBar = () => {
     <nav className='nav'>
       <div className='nav__container'>
         <div className='nav__container-logo'>
-          <Logo />
+          <Link to='/'>
+            <Logo />
+          </Link>
         </div>
         <ul className='nav__container-list'>
           <li>
