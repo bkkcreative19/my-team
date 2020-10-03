@@ -73,7 +73,7 @@ const ContactContent = () => {
             </div>
           </div>
         </div>
-        <div className='contact-form__container-form'>
+        <div className='contact-content__container-form'>
           <ContactForm />
         </div>
       </div>

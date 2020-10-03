@@ -1,21 +1,19 @@
 import React from "react";
+import Button from "../Button/Button";
 import "./ContactForm.scss";
 
 const ContactForm = () => {
   return (
-    <div class='contact-form'>
-      <h2>Login to your account</h2>
-      <form>
-        <input type='text' name='name' placeholder='Name' />
-        <input type='email' name='field2' placeholder='Email Address' />
-        <input type='url' name='field3' placeholder='Website' />
-        <textarea
-          placeholder='Message'
-          onkeyup='adjust_textarea(this)'
-        ></textarea>
-        <input type='button' value='Send Message' />
-      </form>
-    </div>
+    <form class='contact-form'>
+      <div className='contact-form__container'>
+        <input className='test' type='text' placeholder='Name' />
+        <input type='email' placeholder='Email Address' />
+        <input type='text' placeholder='Company Name' />
+        <input type='text' placeholder='Title' />
+        <input className='message' type='text' placeholder='Message' />
+        <Button color='#004047' bgColor='#fff' text='submit' />
+      </div>
+    </form>
   );
 };
 
