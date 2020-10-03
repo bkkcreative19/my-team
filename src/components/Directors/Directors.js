@@ -1,5 +1,11 @@
 import React from "react";
 import DirectorsCard from "../DirectorsCard/DirectorsCard";
+import image1 from "../../assets/images/avatar-nikita.jpg";
+import image2 from "../../assets/images/avatar-christian.jpg";
+import image3 from "../../assets/images/avatar-cruz.jpg";
+import image4 from "../../assets/images/avatar-drake.jpg";
+import image5 from "../../assets/images/avatar-griffin.jpg";
+import image6 from "../../assets/images/avatar-aden.jpg";
 import "./Directors.scss";
 
 const Directors = () => {
@@ -31,12 +37,28 @@ const Directors = () => {
         <h1>Meet the directors</h1>
       </div>
       <div className='directors__container'>
-        <DirectorsCard />
-        <DirectorsCard />
-        <DirectorsCard />
-        <DirectorsCard />
-        <DirectorsCard />
-        <DirectorsCard />
+        <DirectorsCard name='Nikita Marks' job='Founder & CEO' image={image1} />
+        <DirectorsCard
+          name='Cristian Duncan'
+          job='Co-founder & COO'
+          image={image2}
+        />
+        <DirectorsCard
+          name='Cruz Hamer'
+          job='Co-founder & CTO'
+          image={image3}
+        />
+        <DirectorsCard
+          name='Drake Heaton'
+          job='Business Development Lead'
+          image={image4}
+        />
+        <DirectorsCard
+          name='Griffin Wise'
+          job='Lead Marketing'
+          image={image5}
+        />
+        <DirectorsCard name='Aden Allan' job='Head of Talent' image={image6} />
       </div>
 
       <svg

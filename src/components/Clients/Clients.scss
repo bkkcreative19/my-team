@@ -46,6 +46,16 @@
     position: absolute;
     left: 0;
     top: 0;
+
+    @media screen and (max-width: 1030px) {
+      // z-index: -2;
+      top: -10rem;
+    }
+    @media screen and (max-width: 750px) {
+      top: -10rem;
+      left: -10rem;
+    }
+
     // margin-left: 8rem;
   }
 }

@@ -11,6 +11,7 @@
     position: absolute;
     top: 0;
     left: -11rem;
+    z-index: -10;
 
     @media screen and (max-width: 750px) {
       top: -3rem;
