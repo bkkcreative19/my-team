@@ -1,5 +1,8 @@
 import React from "react";
 import "./Testomonials.scss";
+import image1 from "../../assets/images/kady.png";
+import image2 from "../../assets/images/avatar-aiysha.jpg";
+import image3 from "../../assets/images//avatar-arthur.jpg";
 
 const Testimonials = () => {
   return (
@@ -10,7 +13,7 @@ const Testimonials = () => {
         width='147'
         height='100'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <path fill='#002529' d='M0 100h100V0H0z' />
           <path
             fill='#79C8C7'
@@ -42,7 +45,7 @@ const Testimonials = () => {
           </p>
           <h3>Kady Baker</h3>
           <p>Product Manager at Bookmark</p>
-          <img src='../../assets/images/avatar-aiysha.jpg' alt='avatar' />
+          <img src={image1} alt='avatar' />
         </div>
 
         <div className='testimonials__container-item'>
@@ -64,7 +67,7 @@ const Testimonials = () => {
           </p>
           <h3>Aiysha Reese</h3>
           <p>Founder of Manage</p>
-          <img src='../../kady.png' alt='hi' />
+          <img src={image2} alt='hi' />
         </div>
         <div className='testimonials__container-item'>
           <svg
@@ -85,7 +88,7 @@ const Testimonials = () => {
           </p>
           <h3>Arthur Clarke</h3>
           <p>Co-founder of MyPhysio</p>
-          <img src='../../assets/images/avatar-arthur.jpg' alt='avatar' />
+          <img src={image3} alt='avatar' />
         </div>
       </div>
       <svg
@@ -94,7 +97,7 @@ const Testimonials = () => {
         width='200'
         height='100'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <path fill='#2C6269' d='M100 100h100V0H100z' />
           <path
             fill='#012F34'

@@ -12,7 +12,7 @@ const GetStarted = () => {
         width='200'
         height='144'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <path fill='#2C6269' d='M100 144H0V44h100z' />
           <path
             fill='#004047'
