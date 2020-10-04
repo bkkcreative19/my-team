@@ -17,7 +17,7 @@ const Directors = () => {
         width='200'
         height='200'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <path fill='#2C6269' d='M100 100h100V0H100z' />
           <path
             fill='#012F34'
@@ -67,7 +67,7 @@ const Directors = () => {
         width='147'
         height='100'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <path fill='#002529' d='M0 100h100V0H0z' />
           <path
             fill='#79C8C7'

@@ -27,6 +27,7 @@ const NavBar = () => {
           </Link>
         </div>
       </div>
+      <i class='hamburger fas fa-bars'></i>
     </nav>
   );
 };

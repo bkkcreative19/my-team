@@ -3,6 +3,10 @@
   justify-content: center;
   padding: 5.5rem 0;
 
+  @media screen and (max-width: 750px) {
+    margin: 0 1.5rem;
+  }
+
   &__container {
     display: flex;
     width: 75%;
@@ -40,5 +44,16 @@
       color: #fff;
       text-decoration: none;
     }
+  }
+}
+
+.hamburger {
+  display: none;
+
+  @media screen and (max-width: 750px) {
+    display: block;
+    margin: auto 0;
+    font-size: 2rem;
+    color: #fff;
   }
 }

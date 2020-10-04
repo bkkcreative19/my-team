@@ -11,10 +11,10 @@
     position: absolute;
     top: 0;
     left: -11rem;
-    z-index: -10;
 
     @media screen and (max-width: 750px) {
-      top: -3rem;
+      top: 0;
+      z-index: -100;
     }
   }
   &__pattern-2 {

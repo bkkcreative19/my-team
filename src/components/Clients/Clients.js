@@ -10,7 +10,7 @@ const Clients = () => {
         width='200'
         height='200'
       >
-        <g fill='none' fill-rule='evenodd'>
+        <g fill='none' fillRule='evenodd'>
           <path fill='#2C6269' d='M100 100H0V0h100z' />
           <path
             fill='#014E56'
