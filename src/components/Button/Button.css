@@ -1,0 +1,13 @@
+.btn {
+  color: #fff;
+  background-color: #014e56;
+  padding: 0.7em 2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid #fff;
+  border-radius: 2em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Button.css.map */

@@ -1,0 +1,122 @@
+.footer {
+  background-color: #002529;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 6rem 0;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footer__container-nav {
+  margin-top: 1rem;
+}
+
+.footer__container-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 2.5rem;
+}
+
+.footer__container-nav-list li:last-child {
+  margin-left: 3.5rem;
+}
+
+.footer__container-nav-list li a {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__container-address {
+  margin-left: 13rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__container-address {
+    text-align: center;
+    margin: 3rem 0;
+  }
+}
+
+.footer__container-address span {
+  color: rgba(255, 255, 255, 0.644);
+  font-size: 1.5rem;
+  margin-top: 0.7rem;
+}
+
+.footer__container-logos {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__container-logos {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.footer__container-logos-list {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .footer__container-logos-list {
+    margin-left: 0;
+    margin-bottom: 1.4rem;
+  }
+}
+
+.footer__container-logos-list svg {
+  margin: 0 1rem;
+}
+
+.footer__container-logos p {
+  color: rgba(255, 255, 255, 0.644);
+  margin-top: auto;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,128 @@
+.hero {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10rem;
+  padding-bottom: 18rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero {
+    margin-top: 5rem;
+  }
+}
+
+.hero__pattern-1 {
+  position: absolute;
+  left: -11rem;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero__pattern-1 {
+    display: none;
+  }
+}
+
+.hero__pattern-2 {
+  position: absolute;
+  left: 96rem;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero__pattern-2 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  color: #fff;
+  height: 50%;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    width: 95%;
+  }
+}
+
+.hero__content-head {
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+}
+
+.hero__content-text {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.hero__content h1 {
+  font-size: 10rem;
+  font-weight: 600;
+  line-height: 1;
+  width: 80%;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero__content h1 {
+    width: 100%;
+    font-size: 6rem;
+  }
+}
+
+.hero__content h1 span {
+  color: #f67e7e;
+}
+
+.hero__content p {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  margin-top: 9rem;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero__content p {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.hero__content p::before {
+  content: "";
+  position: absolute;
+  width: 5rem;
+  top: 0;
+  border-bottom: 5px solid #79c8c7;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero__content p::before {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Hero.css.map */

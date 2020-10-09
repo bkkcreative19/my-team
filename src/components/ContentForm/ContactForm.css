@@ -1,0 +1,72 @@
+.contact-form {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1030px) {
+  .contact-form {
+    margin-top: 2rem;
+    margin-bottom: 11rem;
+  }
+}
+
+.contact-form__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input {
+  width: 100%;
+  background-color: #014e56;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.767);
+  padding: 2.4rem 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+input:active,
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #79c8c7;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.452);
+  font-weight: 500;
+}
+
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.452);
+  font-weight: 500;
+}
+
+input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.452);
+  font-weight: 500;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.452);
+  font-weight: 500;
+}
+
+.message {
+  padding-bottom: 4.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.contact-form .btn {
+  width: 20%;
+}
+
+@media screen and (max-width: 1030px) {
+  .contact-form .btn {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=ContactForm.css.map */
